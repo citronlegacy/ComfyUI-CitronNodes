@@ -1,8 +1,7 @@
-
-
 # ComfyUI-CitronNodes (ComfyUI Custom Node)
 
-A tiny node that outputs the current date, time, and datetime as strings.
+Someday I'll include many useful node but right now there is only one node.
+Get DateTime - A tiny node that outputs the current date, time, and datetime as strings.
 
 ## Install (manual)
 ```
