@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-CitronNodes"
+version = "1.0.0"
+description = "ComfyUI node: Get DateTime (outputs date, time, datetime as strings)"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/yourusername/comfyui-CitronNodes"
+
+[tool.comfy]
+PublisherId = "@yourpublisher"
+DisplayName = "ComfyUI-CitronNodes"
+Icon = "https://example.com/icon.png"
