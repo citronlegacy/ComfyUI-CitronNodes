@@ -22,3 +22,10 @@ class GetDateTime:
         time_str = now.strftime("%H-%M-%S")
         datetime_str = now.strftime("%Y-%m-%d_%H-%M-%S")
         return (date_str, time_str, datetime_str)
+
+    @classmethod
+    def IS_CHANGED(cls):
+        # No inputs, so ComfyUI would otherwise cache this node's output
+        # forever after the first run. Returning NaN marks it as always
+        # changed so the datetime is recomputed on every queue.
+        return float("nan")
