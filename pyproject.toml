@@ -3,7 +3,7 @@ name = "comfyui-CitronNodes"
 version = "1.0.0"
 description = "ComfyUI node: Get DateTime (outputs date, time, datetime as strings)"
 license = { file = "LICENSE" }
-dependencies = []
+dependencies = ["piexif"]
 
 [project.urls]
 Repository = "https://github.com/yourusername/comfyui-CitronNodes"
